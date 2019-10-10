@@ -2331,6 +2331,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: -webkit-linear-gradient(0deg, #6F1732 0%, #6F1732 100%);
   background: -ms-linear-gradient(0deg, #6F1732 0%, #6F1732 100%);
 }
+.project-description-area{
+  background: -moz-linear-gradient(0deg, #6F1732 0%, #808285 100%);
+  background: -webkit-linear-gradient(0deg, #6F1732 0%, #808285 100%);
+  background: -ms-linear-gradient(0deg, #6F1732 0%, #808285 100%);
+}
 
 .p1-gradient-color, .single-services:hover .lnr {
   background: -moz-linear-gradient(0deg, #6F1732 0%, #6F1732 100%);
