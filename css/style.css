@@ -8124,6 +8124,12 @@ header {
 }
 
 .thumb .overlay-bg {
+  background: -moz-linear-gradient(0deg, #808285 0%, #808285 100%);
+  background: -webkit-linear-gradient(0deg, #808285 0%, #808285 100%);
+  background: -ms-linear-gradient(0deg, #808285 0%, #808285 100%);
+}
+
+.thumb .overlay-bg {
   opacity: 0;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease 0s;
