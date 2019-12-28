@@ -399,9 +399,9 @@ mark,
   height: auto; }
 
 .img-thumbnail {
-  padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  padding: 0.15rem;
+  background-color: #6c757d;
+  border: 1px solid #6c757d;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto; }
@@ -8106,12 +8106,13 @@ header {
 
 .single-portfolio:hover .middle {
   opacity: 1;
+  background: rgba(0, 0, 0, 0.75);
 }
 
 .text {
   color: white;
   font-size: 25px;
-  padding: 16px 32px;
+  padding: 30px 30px;
 }
 
 .single-portfolio {
@@ -8120,7 +8121,7 @@ header {
 }
 
 .single-portfolio:hover .thumb .overlay-bg {
-  opacity: .85;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .thumb .overlay-bg {
